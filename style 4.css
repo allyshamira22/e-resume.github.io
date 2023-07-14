@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Faraz Modern");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #533B4D;
+    color: #FAEDCA;
+    font-family: "Faraz Modern";
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.skills-area{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+.skill{
+    position: relative;
+    margin-bottom: 40px;
+}
+.skill-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.skill-bar{
+    width: 100%;
+    background: rgba(255, 255,255,0.6);
+    height: 40px;
+    z-index: -1;
+    border-radius: 100px;
+    position: absolute;
+}
+.skill-fill{
+    background: #B48E92;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+}
+.skill-percent{
+    font-size: 30px;
+}
+.word{
+    animation: word 2s;
+    width: 90%;
+}
+.Powerpoint{
+    animation: powerpoint 2s;
+    width: 80%;
+}
+.Excel{
+    animation: Excel 2s;
+    width: 50%;
+
+}
+@keyframes word{
+    from{
+        width: 0;
+    }
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes powerpoint{
+    from{
+        width: 0;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+@keyframes Excel{
+    from{
+        width: 0;
+    }
+    to{
+        width: 50%;
+    }
+}
+.language-area{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+.language{
+    position: relative;
+    margin-bottom: 40px;
+}
+.language-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.BahasaMelayu-fill{
+    background: #B48E92;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+}
+.English-fill{
+    background: #B48E92;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+}
+.skill-percent{
+    font-size: 30px;
+}
+.Bahasa-Melayu{
+    animation: word 2s;
+    width: 90%;
+}
+.English{
+    animation: word 2s;
+    width: 90%;
+}
+
+@keyframes language{
+    from{
+        width: 0;
+    }
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes English{
+    from{
+        width: 0;
+    }
+    to{
+        width: 90%;
+    }
+}

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    background-color: #B48E92;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #533B4D;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #533B4D;
+  }
+  
+  p strong {
+    font-weight: bold;
+  }
+  
+  
